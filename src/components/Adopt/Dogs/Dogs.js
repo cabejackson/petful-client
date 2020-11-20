@@ -6,7 +6,7 @@ export default class Dogs extends Component {
         const { dogs, adopt, user, front, reset } = this.props
         return (
             <>
-                <h2>Dog</h2>
+                <h2>Dog Up for Adoption</h2>
                 <img className="picture" src={dogs.value.imageURL} alt="dog img"></img>
                 <p>Name: {dogs.value.name}</p>
                 <p>Age: {dogs.value.age}</p>

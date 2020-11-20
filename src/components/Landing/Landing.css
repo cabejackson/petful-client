@@ -10,13 +10,17 @@
 }
 
 .LandingPage a {
-    border: 2px solid lightsteelblue;
+    border: 6px solid #C5979D;
     padding: 10px
 }
 
 .LandingPage p {
     text-align: center;
     padding-bottom: 10px
+}
+
+.btn:hover {
+    color: #C5979D;
 }
 
 

@@ -93,7 +93,7 @@ export default class AdoptionPage extends Component {
     }
 
     resetUser = () => {
-        alert('You have adopted a new pet! Thank you!')
+        alert('You have adopted a new furry friend! Have a great day!')
         ApiService.deletePeople()
         const blank = ""
         this.setState({ user: blank, submitted: false })
@@ -138,11 +138,13 @@ export default class AdoptionPage extends Component {
                                 number={index}
                                 person={person}
                             />)}
-                        {this.state.submitted ? <p></p> : <form className="form" onSubmit={this.handleSubmit}>
-                            <label htmlFor="name">Enter Name:</label><br />
-                            <input onChange={this.getInLine} type="text" placeholder="Your name" name="name" id="name"></input>
-                            <input type="submit" value="Submit"></input>
-                        </form>}
+                        {this.state.submitted ? <p></p> :
+                            <form className="form" onSubmit={this.handleSubmit}>
+                                <label htmlFor="name">Enter your name below to join the line:</label>
+                                <br />
+                                <input onChange={this.getInLine} type="text" placeholder="Name goes here" name="name" id="name"></input>
+                                <input type="submit" value="Get in line"></input>
+                            </form>}
                     </div>
                 </section>
             </>
