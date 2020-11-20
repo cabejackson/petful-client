@@ -90,7 +90,7 @@ Note: component names are listed in the green boxes
 Clone this repository to your local machine
 
 ```
-git clone https://github.com/cabejackson/petful-client.git bnb-client
+git clone https://github.com/cabejackson/petful-client.git petful-client
 ```
 
 Change directory into the cloned repository
