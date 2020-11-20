@@ -1,0 +1,23 @@
+.header {
+    padding: 0px;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 20%;
+}
+
+.header h1 {
+    color: white;
+
+}
+
+.header h1:hover {
+    color: rgb(220, 227, 236)
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .header h1:hover {
+        text-decoration: none;
+    }
+}
